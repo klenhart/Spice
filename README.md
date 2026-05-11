@@ -1,4 +1,5 @@
 **Author**: Katharina Lenhart
+---
 *Spice* aims to estimate alternative splicing induced functional changes across genes between two conditions. For details, please refer to my masters thesis in the [DokuWiki](http://core.izn-ffm.intern/wiki/doku.php?id=thesis:master).
 
 # Installation
@@ -13,7 +14,7 @@ conda activate spice_env
 ```
 3. Install requirements
 ```bash
-pip install -r conda_requirements.txt
+pip install -r requirements.txt
 ```
 ---
 
