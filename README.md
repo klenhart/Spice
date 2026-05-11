@@ -1,6 +1,8 @@
-**Author**: Katharina Lenhart
+Splicing-based Protein Isoform Comparison Estimator (*Spice*)
 ---
 *Spice* aims to estimate alternative splicing induced functional changes across genes between two conditions. For details, please refer to my masters thesis in the [DokuWiki](http://core.izn-ffm.intern/wiki/doku.php?id=thesis:master).
+
+**Author**: Katharina Lenhart
 
 # Installation
 
