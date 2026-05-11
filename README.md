@@ -155,7 +155,7 @@ result_table = spice.build_results_table(gene_cache=gene_cache,
                                          obs_rmsd=obs_rmsd,
                                          jsd=jsd)
 ```
->**Note**: You can plot RMSD, JSD and MPD histograms across AT-bins using af.plot_distributions_from_result`.
+>**Note**: You can plot RMSD, JSD and MPD histograms across AT-bins using `af.plot_distributions_from_result`.
 
 ## Calculation of cumulative probabilities
 First we perform an exact label permutation procedure to obtain additional RMSD values per gene to densify the underlying AT-level RMSD data.
@@ -164,6 +164,7 @@ pooled_by_AT, pooled_by_gene, summary_dict = spice.build_AT_reference_dist(gene_
 ```
 ### Merge low-populated AT-bins
 Bins that are not represented by enough genes are merged to one bin.
+
 **Define which bins to merge**
 ```python
 bins_to_pool = spice.define_bins_to_merge(summary_dict=summary_dict, num_g=200)
